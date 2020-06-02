@@ -1,0 +1,16 @@
+title: C++ learning mind mapping
+description: C++ learning mind mapping
+template:
+  repo: c++-learning-mind-mapping-template
+  name: c++-learning-mind-mapping
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
